@@ -5,7 +5,6 @@ export interface Pokemon {
    forms:                    Form[];
    game_indices:             GameIndex[];
    height:                   number;
-   held_items:               any[];
    id:                       number;
    is_default:               boolean;
    location_area_encounters: string;
@@ -19,7 +18,7 @@ export interface Pokemon {
    stats:                    string;
    types:                    string;
    weight:                   number;
-}
+};
 
 export interface Ability {
    ability:   Form;

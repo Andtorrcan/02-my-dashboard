@@ -29,7 +29,7 @@ export default async function PokemonPage({
 
   return (
     <div>
-      <h1>Hello </h1>
+      <h1>{pokemonParams.params.id} </h1>
     </div>
   );
 }

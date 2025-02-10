@@ -44,7 +44,6 @@ export const Sidebar = () => {
                      width={50}
                      height={50}
                   ></Image>
-                  <img alt="" />
                </span>
                <span className="text-sm md:text-base font-bold">
                   Andres Torres
